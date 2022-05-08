@@ -11,7 +11,6 @@ namespace BasicCoreProgrms
         public static void ConsonantOrVowel()
         {
             char ch;
-
             Console.Write("\nEnter a Alphabet: ");
             ch = Convert.ToChar(Console.Read());
 

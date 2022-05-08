@@ -11,6 +11,7 @@ Console.WriteLine("6 - Quotient And Remainder Program");
 Console.WriteLine("7 - Swapping Two Numbers Program");
 Console.WriteLine("8 - Even Or Odd Check Program");
 Console.WriteLine("9 - Vowel Or Consonant Program");
+Console.WriteLine("10 - Largest Among 3 Numbers Program");
 Console.Write("\nYour Pick : ");
 
 int pick = Convert.ToInt32(Console.ReadLine());
@@ -42,6 +43,9 @@ switch (pick)
         break;
     case 9:
         VowelOrConsonant.ConsonantOrVowel();
+        break;
+    case 10:
+        LargestAmong3Numbers.LargestAmong3Number();
         break;
     default:
         Console.WriteLine("Invalid Input");
