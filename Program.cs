@@ -10,6 +10,7 @@ Console.WriteLine("5 - PrimeFactors Program");
 Console.WriteLine("6 - Quotient And Remainder Program");
 Console.WriteLine("7 - Swapping Two Numbers Program");
 Console.WriteLine("8 - Even Or Odd Check Program");
+Console.WriteLine("9 - Vowel Or Consonant Program");
 Console.Write("\nYour Pick : ");
 
 int pick = Convert.ToInt32(Console.ReadLine());
@@ -38,6 +39,9 @@ switch (pick)
         break;
     case 8:
         EvenOrOdd.OddOrEven();
+        break;
+    case 9:
+        VowelOrConsonant.ConsonantOrVowel();
         break;
     default:
         Console.WriteLine("Invalid Input");
