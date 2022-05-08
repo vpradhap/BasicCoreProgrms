@@ -5,6 +5,7 @@ Console.WriteLine("Pick Which program You Want to Perform");
 Console.WriteLine("1 - Flipcoin Program");
 Console.WriteLine("2 - LeapYear Program");
 Console.WriteLine("3 - Powerof2 Program");
+Console.WriteLine("4 - HarmonicNumber Program");
 Console.Write("Your Pick : ");
 
 int pick = Convert.ToInt32(Console.ReadLine());
@@ -18,6 +19,9 @@ switch (pick)
         break;
     case 3:
         PowerOf2.Power();
+        break;
+    case 4:
+        HarmonicNumber.Harmonic();
         break;
     default:
         Console.WriteLine("Invalid Input");

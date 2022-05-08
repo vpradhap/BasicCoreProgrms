@@ -19,7 +19,7 @@ namespace BasicCoreProgrms
             {
                 for ( i = 0; i <= N; i++)
                 {
-                    Console.WriteLine("The value of 2 power " + i + " : " + Math.Pow(2, i));
+                    Console.WriteLine("The value of 2 power " + i + " = " + Math.Pow(2, i));
                 }
             }
             else
