@@ -8,6 +8,7 @@ Console.WriteLine("3 - Powerof2 Program");
 Console.WriteLine("4 - HarmonicNumber Program");
 Console.WriteLine("5 - PrimeFactors Program");
 Console.WriteLine("6 - Quotient And Remainder Program");
+Console.WriteLine("7 - Swapping Two Numbers Program");
 Console.Write("Your Pick : ");
 
 int pick = Convert.ToInt32(Console.ReadLine());
@@ -30,6 +31,9 @@ switch (pick)
         break;
     case 6:
         QuotientAndRemainder.QAndR();
+        break;
+    case 7:
+        SwapTwoNumbers.SwapNumbers();
         break;
     default:
         Console.WriteLine("Invalid Input");
