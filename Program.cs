@@ -9,7 +9,8 @@ Console.WriteLine("4 - HarmonicNumber Program");
 Console.WriteLine("5 - PrimeFactors Program");
 Console.WriteLine("6 - Quotient And Remainder Program");
 Console.WriteLine("7 - Swapping Two Numbers Program");
-Console.Write("Your Pick : ");
+Console.WriteLine("8 - Even Or Odd Check Program");
+Console.Write("\nYour Pick : ");
 
 int pick = Convert.ToInt32(Console.ReadLine());
 switch (pick)
@@ -34,6 +35,9 @@ switch (pick)
         break;
     case 7:
         SwapTwoNumbers.SwapNumbers();
+        break;
+    case 8:
+        EvenOrOdd.OddOrEven();
         break;
     default:
         Console.WriteLine("Invalid Input");
